@@ -9,7 +9,7 @@ resource "aws_subnet" "sub1" {
   vpc_id                = aws_vpc.my_vpc.id
   cidr_block            = "192.168.0.0/24"
    availability_zone    = "us-west-2a"
-   tags = {
+   tags                 = {
      "Name"             = "sub1"
    }
 }
